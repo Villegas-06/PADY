@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Caviar Dreams;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/Bebas-Regular.otf);
+}
+
+body {
+  background-image: url(../images/Paralelo.png);
+  background-repeat: no-repeat;
+  font-family: Caviar Dreams;
+}
+
+button {
+  border-radius: 16.5px;
+  height: 100px;
+  width: 116.5px;
+  outline: none;
+  border: 2px solid #ffffff;
+}
+
+a {
+  color: black;
+}
+
+div.container.main {
+  /*background-color: aquamarine; */
+  position: inherit;
+  margin-top: 10%;
+}
+
+div#categoria {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+button#one {
+  background-color: #c2fdec;
+  color: #ffffff;
+  font-size: 270%;
+  
+}
+
+button#two {
+  background-color: #ebfeb2;
+  color: #ffffff;
+  font-size: 270%;
+}
+
+button#three {
+  background-color: #ff9c87;
+  color: #ffffff;
+  font-size: 270%;
+}
+
+button#four {
+  background-color: #ffcf84;
+  color: #ffffff;
+  font-size: 270%;
+}
+
+button#five {
+  background-color: #ff83c1;
+  color: #ffffff;
+  font-size: 270%;
+}
+
+h1#nombreApp {
+  color: #737373;
+  margin-bottom: 3%;
+  font-family: Bebas;
+  font-size: 96px;
+}
+
+#explicacion {
+  color: #545454;
+  font-size: 30px;
+  
+}
+
+
+#Word1{
+    font-size: 16.5px;
+}
+
+#Word2{
+    font-size: 16.5px;
+}
+
+#Word3{
+    font-size: 16.5px;
+}
+
+#Word4{
+    font-size: 16.5px;
+}
+
+#Word5{
+    font-size: 16.5px;
+}
+
+#mail{
+    font-size: 50px;
+    display: flex;
+}
+
+/*.hint{
+    visibility: hidden;
+    transition: all .5s;
+}*/

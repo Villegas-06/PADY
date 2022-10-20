@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Caviar Dreams;
+  src: url(/fonts/CaviarDreams.ttf);
+}
+
+body {
+  font-family: Caviar Dreams;
+}
+
+h3 {
+  color: #545454;
+}
+
+#title {
+  text-align: center;
+  margin-top: 10%;
+  border-radius: 20px;
+  height: 100px;
+  width: 120px;
+  outline: none;
+  border: 2px solid #ffffff;
+  background-color: #ff9c87;
+  color: #ffffff;
+  font-size: 270%;
+}
+
+#n3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#canvaWord,
+#generateRandomWord {
+  margin-top: 5%;
+}
