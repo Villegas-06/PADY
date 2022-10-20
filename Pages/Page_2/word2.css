@@ -3,10 +3,11 @@
   src: url(/fonts/CaviarDreams.ttf);
 }
 
-body{
+body {
   font-family: Caviar Dreams;
+  background-image: url(/images/Fondo\ pages.png);
+  background-repeat: no-repeat;
 }
-
 
 h3 {
   color: #545454;

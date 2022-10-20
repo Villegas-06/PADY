@@ -5,6 +5,8 @@
 
 body {
   font-family: Caviar Dreams;
+  background-image: url(/images/Fondo\ pages.png);
+  background-repeat: no-repeat;
 }
 
 h3 {
