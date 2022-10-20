@@ -12,7 +12,11 @@ let thingRandom = ["Química", "Burbujas", "Luz",
     "diamante", "Escancia", "Sobrenatural", "Halloween", "Película", "Superhéroe", "Villano", "Timidez", "Elegante", "Belleza",
     "Puro", "Ukelele", "Vampiro", "Frustración", "Ansiedad", "Bestia", "Insomnio", "Tiempo", "Veneno", "Futuro", "Muerte", "Toxico",
     "Celular", "Varita", "Hechizo", "Joyas", "Tijeras", "Dulce", "Serie", "Consola", "Videojuego", "Colorido",
-    "Mancha", "infancia", "Jazz", "Canasta"];
+    "Mancha", "infancia", "Jazz", "Canasta", "Cactus",
+    "Girasol", "Planta Carnivora", "Calabaza", "Abeja",
+    "Collar", "Tiara", "Sapo", "Fresa", "Personaje", "Mitico",
+    "Dinosaurio", "Pasado", "Sumergido", "Serpiente", "Auto",
+    "Basura", "Fantasma", "Zombie"];
 
 
 
