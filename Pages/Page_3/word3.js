@@ -41,7 +41,6 @@ function randomWord() {
     let randomWordObject = object[Math.floor(Math.random() * object.length)];
     let randomWordAction = action[Math.floor(Math.random() * action.length)];
     let randomWordScenery = scenery[Math.floor(Math.random() * scenery.length)];
-    console.log(randomWord)
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordObject + "  +  " + randomWordAction +
         "  +  " + randomWordScenery + "</h3>"
 }

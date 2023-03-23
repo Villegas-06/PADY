@@ -50,7 +50,6 @@ function randomWord() {
     let randomWordObject = object[Math.floor(Math.random() * object.length)];
     let randomWordSubGenerOptional = subGenerOptional[Math.floor(Math.random() * subGenerOptional.length)];
     let randomWordStyle = StyleOptional[Math.floor(Math.random() * StyleOptional.length)];
-    console.log(randomWord)
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordLivingBeing + "  +  " + randomWordCompanion +
         "<br> <br>" + randomWordObject + "  +  " + randomWordStyle + "  +  "
         + "<br> <br>" + "<p id='textCenter'>" + randomWordSubGenerOptional + "</p>" + "</h3>"

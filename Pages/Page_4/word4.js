@@ -36,7 +36,6 @@ function randomWord() {
     let randomWordObject = object[Math.floor(Math.random() * object.length)];
     let randomWordElementNature = elementNature[Math.floor(Math.random() * elementNature.length)];
     let randomWordAmountColors = amountColors[Math.floor(Math.random() * amountColors.length)];
-    console.log(randomWord)
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordLivingBeing + "  +  " + randomWordObject + "  +  "
         + "<br> <br>" + randomWordElementNature + "  +  " + randomWordAmountColors + "</h3>"
 }

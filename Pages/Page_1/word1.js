@@ -37,7 +37,6 @@ let thingRandom = ["Química", "Burbujas", "Luz",
 
 function randomWord() {
     let randomWord = thingRandom[Math.floor(Math.random() * thingRandom.length)];
-    console.log(randomWord)
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWord + "</h3>"
 }
 
