@@ -1,6 +1,7 @@
 
 let livingBeing /*ser vivo*/ = ["Mujer", "Hombre", "No Binario",
-    "Animal", "Planta"];
+    "Animal", "Planta", "Niñ@", "Animales antropomórficos", "Golem", 
+    "Duende", "Hada", "Espíritu"];
 
 let object = ["Bolsa", "Camara", "Libro",
     "Botella", "Vela", "Cascabel",
@@ -10,7 +11,13 @@ let object = ["Bolsa", "Camara", "Libro",
     "Pluma", "Guantera", "Navaja",
     "Libreta", "Vara", "Monedas",
     "Collar", "Skate", "Botas",
-    "Auriculares", "Mapa"];
+    "Auriculares", "Mapa", "Llave", "Daga", 
+    "Libro", "Farol", "Collar", "Cetro", "Cáliz", 
+    "Amuleto", "Recipiente", "Guantes", "Espejo", 
+    "Poción", "Flechas", "Arma", "Castillo", "Muñeco", 
+    "Lazo", "Instrumento", "Trono", "Corona", "Tecnología", 
+    "Portal", "Sombrilla/Paraguas", "Anillo", "Abanico", "Máscara", 
+    "Cristales", "Mochila", "Cadenas", "Esposas", "Pergaminos", "Capa"];
 
 let elementNature = ["Agua", "Tierra", "Fuego",
     "Aire", "Metal", "Goma",

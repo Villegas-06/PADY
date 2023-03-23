@@ -8,7 +8,11 @@ let object = ["Bolsa", "Camara", "Libro",
     "Pluma", "Guantera", "Navaja",
     "Libreta", "Vara", "Monedas",
     "Collar", "Skate", "Botas",
-    "Auriculares", "Mapa"];
+    "Auriculares", "Mapa",
+    "Cuadro", "Auriculares", "Skate", "Reloj de bolsillo", 
+    "Tijeras", "Daga", "Poción", "Abanico", "Maleta", 
+    "Lentes/Gafas", "Bebida", "Máscara", "Tiara", "Lazo", 
+    "Campana", "Farol", "Velas", "Tapabocas", "Guantes", "Capa"];
 
 let action = ["Dormir", "Saltar", "Soñar",
     "Jugar", "Descansar", "Bailar",
@@ -16,7 +20,9 @@ let action = ["Dormir", "Saltar", "Soñar",
     "Buscar", "Cantar", "Cocinar",
     "Escribir", "Caminar", "Leer",
     "Hablar", "Caer", "Escuchar",
-    "jugar"];
+    "jugar", "Despertar", "Beber", "Comer", 
+    "Apuñalar", "Cantar", "Levitar", "Disparar", 
+    "Reir", "Llorar", "Traicionar"];
 
 let scenery = ["Teatro", "Cancha", "Estadio",
     "Carretera", "Campo", "Selva",
@@ -26,7 +32,9 @@ let scenery = ["Teatro", "Cancha", "Estadio",
     "Restaurante", "Jardín", "Techo",
     "Castillo", "Sótano", "Callejón",
     "Isla", "Habitación", "Ciudad",
-    "Terraza", "Cueva"];
+    "Terraza", "Cueva", "Laguna", "Cabaña", 
+    "Granja", "Cascada", "Habitación", "Terraza", 
+    "Reino", "Lugar favorito", "Profundidades/Submarino", "Puente"];
 
 
 function randomWord() {

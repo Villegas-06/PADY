@@ -16,7 +16,20 @@ let thingRandom = ["Química", "Burbujas", "Luz",
     "Girasol", "Planta Carnivora", "Calabaza", "Abeja",
     "Collar", "Tiara", "Sapo", "Fresa", "Personaje", "Mitico",
     "Dinosaurio", "Pasado", "Sumergido", "Serpiente", "Auto",
-    "Basura", "Fantasma", "Zombie"];
+    "Basura", "Fantasma", "Zombie", "Caballero", "Ancian@", "Princesa",
+    "Rostro", "Criatura", "Bosque", "Campo", "Playa", "Energía", "Mar/Oceano",
+    "Insecto", "Infancia", "Tiempo", "Flecha", "Luna", "Sol", "Estrella", "Nublado", 
+    "Exterior", "Interior", "Metálico", "Joya", "Valioso", "Cantidad", 
+    "Máquina expendedora", "Entrada", "Ventana", "Hilo", "Pantalla", "Libro", "Conexión", 
+    "Carta", "Asia", "Multicolor", "Forma", "Uno", "Velocidad", "Alto", "Bajo", "Secreto", "Acción", 
+    "Destrucción", "Creación", "Defensa", "Tú", "Mentira", "Odio", "Alegría", "Cansancio", "Seguridad", "Viejo", "Nuevo", "Ligero", 
+    "Animal", "Ancestral", "Poder", "Robot", "Cyborg", "Perspectiva", "Neón", "Meme", "viaje", "Hada", "Mago", "Espiritu", "Videojuego",
+    "Mascota", "Especie", "Dolor", "Memoria", "Soledad", "Magia", "Cabaña", "Caja de jugo", "Serie", "Arcade", "Escalera", "Bombilla", 
+    "Espejo", "Florero", "Patineta", "Silla", "Audífonos", "Cámara", "Caja", "Micrófono", "Vara", "Sartén", "Aviso", "Isometrico", 
+    "Pixelart", "OVNI", "Deidad", "Demonio", "Alas", "Extraterrestre", "Dragon", "Garras", "Alma", "Casco", "Pelicula"];
+
+
+    
 
 
 

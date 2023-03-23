@@ -1,8 +1,8 @@
 let livingBeing /*ser vivo*/ = ["Mujer", "Hombre", "No Binario",
-    "Animal", "Planta"];
+    "Animal", "Animal Antropomórficos", "Niñ@"];
 
-let companion = ["Animal Doméstico", "Animal Mutante", "Animal de Fantasía",
-    "Cyborg Animal", "Animal Mitológico"];
+let companion = ["Ser/Animal", "Ser/Animal Mutante", "Ser/Animal de Fantasia", 
+"Ser/Animal Cyborg", "Ser/Animal Mitologico"];
 
 let object = ["Bolsa", "Camara", "Libro",
     "Botella", "Vela", "Cascabel",
@@ -12,11 +12,17 @@ let object = ["Bolsa", "Camara", "Libro",
     "Pluma", "Guantera", "Navaja",
     "Libreta", "Vara", "Monedas",
     "Collar", "Skate", "Botas",
-    "Auriculares", "Mapa"];
+    "Auriculares", "Mapa", "Llave", "Daga", "Libro", "Lazo", 
+    "Collar", "Cetro", "Cáliz", "Amuleto", "Recipiente", "Guante", 
+    "Espejo", "Flechas", "Arma", "Castillo", "Muñeco", "Instrumento", 
+    "Trono", "Corona", "Tecnología", "Portal", "Sombrilla/Paraguas", "Anillo", 
+    "Abanico", "Máscara", "Cristales", "Mochila", "Cadenas", "Esposas", "Pergaminos", 
+    "Capa", "Vehículo", "Guantes", "Farol", "Tiara", "Campana", "Lentes/Gafas", "Bandera", 
+    "Bufanda", "Tapabocas"];
 
-let StyleOptional = ["Acuarela", "Digital", "Tradicional",
-    "Oleo", "Pixel Art", "Sin Boceto",
-    "Sin Borrar", "Solo Color"]
+let StyleOptional = ["Digital", "Tradicional",
+    "Pixel Art", "Sin Boceto", "Caricatura",
+    "Sin Borrar", "Solo Color", "Isométrico"];
 
 
 

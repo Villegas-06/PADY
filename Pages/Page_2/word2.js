@@ -6,7 +6,10 @@ let nature = ["Hojas", "Rocas", "Agua",
     "Cascada", "Sol", "Olas",
     "Hiedra", "Tornado", "fogata",
     "Tormenta", "Lluvia", "Lava",
-    "Cristales", "Rayo", "Bosque", "Nubes,"];
+    "Cristales", "Rayo", "Bosque", "Nubes",
+    "Rayo", "Sol", "Lluvia", "Nublado", "Nieve",
+    "Cristales", "Raíces", "Tronco", "Nube", "Capullo",
+    "Luna", "Vapor", "Burbujas", "Planta"];
 
 let noNature = ["Espada", "Casa", "Espada",
     "Cofre", "Cinta", "Autobus",
@@ -17,7 +20,11 @@ let noNature = ["Espada", "Casa", "Espada",
     "Puerta", "Castillo",
     "Torre", "Vara", "Trono", "Cetro", "Arco", "Portal", "Poción",
     "Frasco", "Puente", "Reloj", "Cabaña", "Isla", "Martillo", "Carreta",
-    "Lata", "Jaula", "Silla", "Caja", "Canasta", "Esposas", "Cadenas"];
+    "Lata", "Jaula", "Silla", "Caja", "Canasta", "Esposas", "Cadenas",
+    "Llave", "Daga", "Libro", "Lámpara", "Collar", "Cetro", "Cáliz", "Amuleto", 
+    "Recipiente", "Guante", "Espejo", "Flechas", "Arma", "Castillo", "Muñeco", 
+    "Instrumento", "Trono", "Corona", "Tecnología", "Portal", "Sombrilla/Paraguas", 
+    "Anillo", "Abanico", "Máscara"];
 
 
 
