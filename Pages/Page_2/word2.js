@@ -32,7 +32,7 @@ let noNature = ["Espada", "Casa", "Espada",
 function randomWord() {
     let randomWordNature = nature[Math.floor(Math.random() * nature.length)];
     let randomWordNoNature = noNature[Math.floor(Math.random() * noNature.length)];
-    document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordNature + "+" + randomWordNoNature + "</h3>"
+    document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordNature + " + " + randomWordNoNature + "</h3>"
 }
 
 
