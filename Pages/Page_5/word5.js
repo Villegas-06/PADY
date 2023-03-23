@@ -43,11 +43,15 @@ let subGenerOptional = ["Alta Fantasía <br> <br> Mundo Imaginario - Épica  -  
 "Ciencia Ficción Utópica <br> <br> Alto desarrollo Tecnológico – Futuro Posible – Inspiración en el mundo Real Ejemplo: Tron Legacy - Robots",
 "Cyberpunk <br> <br> Biotecnología Avanzada – Distopia – Bajo nivel de Vida Ejemplo: Terminator - Blade Runner"];
 
+const dataObject = new SET(object);
+
+let withoutRepeatObject = [...dataObject];
+
 
 function randomWord() {
     let randomWordLivingBeing = livingBeing[Math.floor(Math.random() * livingBeing.length)];
     let randomWordCompanion = companion[Math.floor(Math.random() * companion.length)];
-    let randomWordObject = object[Math.floor(Math.random() * object.length)];
+    let randomWordObject = object[Math.floor(Math.random() * withoutRepeatObject.length)];
     let randomWordSubGenerOptional = subGenerOptional[Math.floor(Math.random() * subGenerOptional.length)];
     let randomWordStyle = StyleOptional[Math.floor(Math.random() * StyleOptional.length)];
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordLivingBeing + "  +  " + randomWordCompanion +

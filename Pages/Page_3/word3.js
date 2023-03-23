@@ -37,10 +37,19 @@ let scenery = ["Teatro", "Cancha", "Estadio",
     "Reino", "Lugar favorito", "Profundidades/Submarino", "Puente"];
 
 
+const dataObject = new SET(object);
+const dataAction = new SET(action);
+const dataScenery = new SET(scenery);
+
+let withoutRepeatObject = [...dataObject];
+let withoutRepeatAction = [...dataAction];
+let withoutRepeatScenery = [...dataScenery];
+
+
 function randomWord() {
-    let randomWordObject = object[Math.floor(Math.random() * object.length)];
-    let randomWordAction = action[Math.floor(Math.random() * action.length)];
-    let randomWordScenery = scenery[Math.floor(Math.random() * scenery.length)];
+    let randomWordObject = object[Math.floor(Math.random() * withoutRepeatObject.length)];
+    let randomWordAction = action[Math.floor(Math.random() * withoutRepeatAction.length)];
+    let randomWordScenery = scenery[Math.floor(Math.random() * withoutRepeatScenery.length)];
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordObject + "  +  " + randomWordAction +
         "  +  " + randomWordScenery + "</h3>"
 }

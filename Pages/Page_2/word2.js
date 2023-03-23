@@ -27,11 +27,18 @@ let noNature = ["Espada", "Casa", "Espada",
     "Anillo", "Abanico", "Máscara"];
 
 
+const dataNature = new SET(nature);
+const dataNoNature = new SET(noNature);
+
+let withoutRepeatNature = [...dataNature];
+let withoutRepeatNoNature = [...dataNoNature];
+
+
 
 
 function randomWord() {
-    let randomWordNature = nature[Math.floor(Math.random() * nature.length)];
-    let randomWordNoNature = noNature[Math.floor(Math.random() * noNature.length)];
+    let randomWordNature = nature[Math.floor(Math.random() * withoutRepeatNature.length)];
+    let randomWordNoNature = noNature[Math.floor(Math.random() * withoutRepeatNoNature.length)];
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordNature + " + " + randomWordNoNature + "</h3>"
 }
 

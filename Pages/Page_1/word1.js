@@ -8,8 +8,8 @@ let thingRandom = ["Química", "Burbujas", "Luz",
     "Reconstrucción", "Reina", "Miedo", "Soledad", "Vértigo", "Fresco", "Agua", "Tierra", "Naufrago", "Perspectiva", "Pesadilla",
     "Monstruo", "Traición", "Pueblo", "Suaves", "Liviano", "Rey", "Monotonía", "Pasión", "Elegancia", "LGTB", "Globo", "Luna",
     "Estrellas", "Planeta", "Sangre", "Herida", "Ventana", "Vendaje", "Muñeca", "Libro", "Paisaje", "Cinta", "Explotar", "Sacrificio",
-    "lagrimas", "Refugio", "Ahogarse", "Horóscopo", "Fuente", "Antiguo", "Alegría", "Diversión", "Amar", "Melodía", "Agujero", "ojos",
-    "diamante", "Escancia", "Sobrenatural", "Halloween", "Película", "Superhéroe", "Villano", "Timidez", "Elegante", "Belleza",
+    "Lagrimas", "Refugio", "Ahogarse", "Horóscopo", "Fuente", "Antiguo", "Alegría", "Diversión", "Amar", "Melodía", "Agujero", "ojos",
+    "Diamante", "Escancia", "Sobrenatural", "Halloween", "Película", "Superhéroe", "Villano", "Timidez", "Elegante", "Belleza",
     "Puro", "Ukelele", "Vampiro", "Frustración", "Ansiedad", "Bestia", "Insomnio", "Tiempo", "Veneno", "Futuro", "Muerte", "Toxico",
     "Celular", "Varita", "Hechizo", "Joyas", "Tijeras", "Dulce", "Serie", "Consola", "Videojuego", "Colorido",
     "Mancha", "infancia", "Jazz", "Canasta", "Cactus",
@@ -30,13 +30,15 @@ let thingRandom = ["Química", "Burbujas", "Luz",
 
 
     
+    const dataThingRandom = new Set(thingRandom);
 
+    let withoutRepeat = [...dataThingRandom];
 
 
 
 
 function randomWord() {
-    let randomWord = thingRandom[Math.floor(Math.random() * thingRandom.length)];
+    let randomWord = thingRandom[Math.floor(Math.random() * withoutRepeat.length)];
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWord + "</h3>"
 }
 

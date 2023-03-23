@@ -27,15 +27,22 @@ let amountColors = ["Monocromático", "Complementarios", "Triada",
     "Análogos", "Adyacentes", "Tetraedica"];
 
 
+const dataLivingBeing = new SET(livingBeing);
+const dataObject = new SET(object);
+const dataElementNature = SET(elementNature);
+const dataAmountColors = new SET(amountColors);
 
-
+let withoutRepeatLivingBeing = [...dataLivingBeing];
+let withoutRepeatObject = [...dataObject];
+let withoutRepeatElementNature = [...dataElementNature];
+let withoutRepeatAmountColors = [...dataAmountColors];
 
 
 function randomWord() {
-    let randomWordLivingBeing = livingBeing[Math.floor(Math.random() * livingBeing.length)];
-    let randomWordObject = object[Math.floor(Math.random() * object.length)];
-    let randomWordElementNature = elementNature[Math.floor(Math.random() * elementNature.length)];
-    let randomWordAmountColors = amountColors[Math.floor(Math.random() * amountColors.length)];
+    let randomWordLivingBeing = livingBeing[Math.floor(Math.random() * withoutRepeatLivingBeing.length)];
+    let randomWordObject = object[Math.floor(Math.random() * withoutRepeatObject.length)];
+    let randomWordElementNature = elementNature[Math.floor(Math.random() * withoutRepeatElementNature.length)];
+    let randomWordAmountColors = amountColors[Math.floor(Math.random() * withoutRepeatAmountColors.length)];
     document.getElementById("canvaWord").innerHTML = "<h3>" + randomWordLivingBeing + "  +  " + randomWordObject + "  +  "
         + "<br> <br>" + randomWordElementNature + "  +  " + randomWordAmountColors + "</h3>"
 }
