@@ -37,9 +37,9 @@ let scenery = ["Teatro", "Cancha", "Estadio",
     "Reino", "Lugar favorito", "Profundidades/Submarino", "Puente"];
 
 
-const dataObject = new SET(object);
-const dataAction = new SET(action);
-const dataScenery = new SET(scenery);
+const dataObject = new Set(object);
+const dataAction = new Set(action);
+const dataScenery = new Set(scenery);
 
 let withoutRepeatObject = [...dataObject];
 let withoutRepeatAction = [...dataAction];

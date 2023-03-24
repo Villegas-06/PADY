@@ -27,8 +27,8 @@ let noNature = ["Espada", "Casa", "Espada",
     "Anillo", "Abanico", "Máscara"];
 
 
-const dataNature = new SET(nature);
-const dataNoNature = new SET(noNature);
+const dataNature = new Set(nature);
+const dataNoNature = new Set(noNature);
 
 let withoutRepeatNature = [...dataNature];
 let withoutRepeatNoNature = [...dataNoNature];

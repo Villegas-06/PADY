@@ -43,7 +43,7 @@ let subGenerOptional = ["Alta Fantasía <br> <br> Mundo Imaginario - Épica  -  
 "Ciencia Ficción Utópica <br> <br> Alto desarrollo Tecnológico – Futuro Posible – Inspiración en el mundo Real Ejemplo: Tron Legacy - Robots",
 "Cyberpunk <br> <br> Biotecnología Avanzada – Distopia – Bajo nivel de Vida Ejemplo: Terminator - Blade Runner"];
 
-const dataObject = new SET(object);
+const dataObject = new Set(object);
 
 let withoutRepeatObject = [...dataObject];
 

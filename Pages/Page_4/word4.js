@@ -27,10 +27,10 @@ let amountColors = ["Monocromático", "Complementarios", "Triada",
     "Análogos", "Adyacentes", "Tetraedica"];
 
 
-const dataLivingBeing = new SET(livingBeing);
-const dataObject = new SET(object);
-const dataElementNature = SET(elementNature);
-const dataAmountColors = new SET(amountColors);
+const dataLivingBeing = new Set(livingBeing);
+const dataObject = new Set(object);
+const dataElementNature = new Set(elementNature);
+const dataAmountColors = new Set(amountColors);
 
 let withoutRepeatLivingBeing = [...dataLivingBeing];
 let withoutRepeatObject = [...dataObject];
