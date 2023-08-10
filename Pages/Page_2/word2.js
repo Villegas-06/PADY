@@ -21,9 +21,9 @@ let noNature = ["Espada", "Casa", "Espada",
     "Torre", "Vara", "Trono", "Cetro", "Arco", "Portal", "Poción",
     "Frasco", "Puente", "Reloj", "Cabaña", "Isla", "Martillo", "Carreta",
     "Lata", "Jaula", "Silla", "Caja", "Canasta", "Esposas", "Cadenas",
-    "Llave", "Daga", "Libro", "Lámpara", "Collar", "Cetro", "Cáliz", "Amuleto", 
-    "Recipiente", "Guante", "Espejo", "Flechas", "Arma", "Castillo", "Muñeco", 
-    "Instrumento", "Trono", "Corona", "Tecnología", "Portal", "Sombrilla/Paraguas", 
+    "Llave", "Daga", "Libro", "Lámpara", "Collar", "Cetro", "Cáliz", "Amuleto",
+    "Recipiente", "Guante", "Espejo", "Flechas", "Arma", "Castillo", "Muñeco",
+    "Instrumento", "Trono", "Corona", "Tecnología", "Portal", "Sombrilla/Paraguas",
     "Anillo", "Abanico", "Máscara"];
 
 
@@ -33,6 +33,8 @@ const dataNoNature = new Set(noNature);
 let withoutRepeatNature = [...dataNature];
 let withoutRepeatNoNature = [...dataNoNature];
 
+console.log(`${nature} ---> Pagina 2 --> Nature`);
+console.log(`${noNature} ---> Pagina 2 --> noNature`);
 
 
 
