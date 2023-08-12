@@ -9,7 +9,8 @@ let nature = ["Hojas", "Rocas", "Agua",
     "Cristales", "Rayo", "Bosque", "Nubes",
     "Rayo", "Sol", "Lluvia", "Nublado", "Nieve",
     "Cristales", "Raíces", "Tronco", "Nube", "Capullo",
-    "Luna", "Vapor", "Burbujas", "Planta"];
+    "Luna", "Vapor", "Burbujas", "Planta", 'Magma', 'Viscoso',
+    'Nocturno'];
 
 let noNature = ["Espada", "Casa", "Espada",
     "Cofre", "Cinta", "Autobus",
@@ -24,7 +25,7 @@ let noNature = ["Espada", "Casa", "Espada",
     "Llave", "Daga", "Libro", "Lámpara", "Collar", "Cetro", "Cáliz", "Amuleto",
     "Recipiente", "Guante", "Espejo", "Flechas", "Arma", "Castillo", "Muñeco",
     "Instrumento", "Trono", "Corona", "Tecnología", "Portal", "Sombrilla/Paraguas",
-    "Anillo", "Abanico", "Máscara"];
+    "Anillo", "Abanico", "Máscara", 'Escultura', 'Traje', 'Casco', 'Alas', 'Armadura'];
 
 
 const dataNature = new Set(nature);
@@ -33,8 +34,8 @@ const dataNoNature = new Set(noNature);
 let withoutRepeatNature = [...dataNature];
 let withoutRepeatNoNature = [...dataNoNature];
 
-console.log(`${nature} ---> Pagina 2 --> Nature`);
-console.log(`${noNature} ---> Pagina 2 --> noNature`);
+/*console.log(`${nature} ---> Pagina 2 --> Nature`);
+console.log(`${noNature} ---> Pagina 2 --> noNature`);*/
 
 
 

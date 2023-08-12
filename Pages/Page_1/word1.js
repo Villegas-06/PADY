@@ -26,11 +26,17 @@ let thingRandom = ["Química", "Burbujas", "Luz",
     "Animal", "Ancestral", "Poder", "Robot", "Cyborg", "Perspectiva", "Neón", "Meme", "viaje", "Hada", "Mago", "Espiritu", "Videojuego",
     "Mascota", "Especie", "Dolor", "Memoria", "Soledad", "Magia", "Cabaña", "Caja de jugo", "Serie", "Arcade", "Escalera", "Bombilla",
     "Espejo", "Florero", "Patineta", "Silla", "Audífonos", "Cámara", "Caja", "Micrófono", "Vara", "Sartén", "Aviso", "Isometrico",
-    "Pixelart", "OVNI", "Deidad", "Demonio", "Alas", "Extraterrestre", "Dragon", "Garras", "Alma", "Casco", "Pelicula"];
+    "Pixelart", "OVNI", "Deidad", "Demonio", "Alas", "Extraterrestre", "Dragon", "Garras", "Alma", "Casco", "Pelicula", 'Pez', 'Templo',
+    'Brujería', 'Almas', 'Alquimia', 'Dobodles', 'Golem', 'Magma', 'Slime', 'Textura', 'Micro', 'Macro', 'Tentáculos', 'Búho', 'Simétrico',
+    'Caos', 'Mixto', 'Piedra', 'División', 'Clonar', 'Diabólico', 'Mecha', 'Guerrero', 'Medusa', 'Ajolote', 'Albino', 'Heterocromía', 'Vitíligo',
+    'Afro', 'Chibi', 'Petrificación', 'Víbora', 'Jade', 'Abandono', 'Espacio', 'Geisha', 'Musa', 'Prohibido', 'Props', 'Tierno', 'Poder', 'Pixie',
+    'Sirena', 'Licántropo', 'Vampiro', 'Zombie', 'Instrumento', 'Luciérnaga', 'Turón', 'Zorro', 'Sapo', 'Rana', 'Panda rojo', 'Pingüino', 'Foca',
+    'Pato', 'Mapache', 'Disney', 'Pixar', 'Studio Ghibli', 'DreamWorks', 'Sony Pictures A', 'Aardman Animation', 'Laika estudio', 'Nintendo',
+    'PlayStation', 'Teléfono'];
 
 
 
-console.log(`${thingRandom} ---> Pagina 1`);
+//console.log(`${thingRandom} ---> Pagina 1`);
 
 
 const dataThingRandom = new Set(thingRandom);

@@ -12,7 +12,10 @@ let object = ["Bolsa", "Camara", "Libro",
     "Cuadro", "Auriculares", "Skate", "Reloj de bolsillo",
     "Tijeras", "Daga", "Poción", "Abanico", "Maleta",
     "Lentes/Gafas", "Bebida", "Máscara", "Tiara", "Lazo",
-    "Campana", "Farol", "Velas", "Tapabocas", "Guantes", "Capa"];
+    "Campana", "Farol", "Velas", "Tapabocas", "Guantes", "Capa", 'Bombas',
+    'Granadas', 'Estandarte', 'Cartas', 'Cofre', 'Baúl', 'Runas', 'Deslizador',
+    'Cachivache', 'Encendedor', 'Cráneo', 'Cinturón', 'Jeringa', 'Comida', 'Aretes',
+    'Instrumento', 'Flauta', 'Guitarra', 'Armónica', 'Violín'];
 
 let action = ["Dormir", "Saltar", "Soñar",
     "Jugar", "Descansar", "Bailar",
@@ -34,7 +37,10 @@ let scenery = ["Teatro", "Cancha", "Estadio",
     "Isla", "Habitación", "Ciudad",
     "Terraza", "Cueva", "Laguna", "Cabaña",
     "Granja", "Cascada", "Habitación", "Terraza",
-    "Reino", "Lugar favorito", "Profundidades/Submarino", "Puente"];
+    "Reino", "Lugar favorito", "Profundidades/Submarino",
+    "Puente", 'Ruinas', 'Biblioteca', 'Tren', 'Templo', 'Fuente',
+    'Urbano', 'Calle', 'Bañera', 'Estudio', 'Exterior', 'Interior',
+    'Cabina telefónica', 'Tienda'];
 
 
 const dataObject = new Set(object);
@@ -46,9 +52,9 @@ let withoutRepeatAction = [...dataAction];
 let withoutRepeatScenery = [...dataScenery];
 
 
-console.log(`${object} ---> Pagina 3 --> Objeto`);
+/*console.log(`${object} ---> Pagina 3 --> Objeto`);
 console.log(`${action} ---> Pagina 3 --> Accion`);
-console.log(`${scenery} ---> Pagina 3 --> Escenario`);
+console.log(`${scenery} ---> Pagina 3 --> Escenario`);*/
 
 
 function randomWord() {

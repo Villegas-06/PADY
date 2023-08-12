@@ -1,5 +1,6 @@
 let livingBeing /*ser vivo*/ = ["Mujer", "Hombre", "No Binario",
-    "Animal", "Animal Antropomórficos", "Niñ@"];
+    "Animal", "Animal Antropomórficos", "Niñ@", 'Piexie', 'Licantropo',
+    'Vampir@', 'Elf@'];
 
 let companion = ["Ser/Animal", "Ser/Animal Mutante", "Ser/Animal de Fantasia",
     "Ser/Animal Cyborg", "Ser/Animal Mitologico"];
@@ -18,7 +19,9 @@ let object = ["Bolsa", "Camara", "Libro",
     "Trono", "Corona", "Tecnología", "Portal", "Sombrilla/Paraguas", "Anillo",
     "Abanico", "Máscara", "Cristales", "Mochila", "Cadenas", "Esposas", "Pergaminos",
     "Capa", "Vehículo", "Guantes", "Farol", "Tiara", "Campana", "Lentes/Gafas", "Bandera",
-    "Bufanda", "Tapabocas"];
+    "Bufanda", "Tapabocas", 'Bombas', 'Granadas', 'Estandarte', 'Cartas', 'Cofre', 'Baúl',
+    'Runas', 'Deslizador', 'Cachivache', 'Encendedor', 'Cráneo', 'Cinturón', 'Jeringa',
+    'Comida', 'Aretes', 'Instrumento', 'Flauta', 'Guitarra', 'Armónica', 'Violín'];
 
 let StyleOptional = ["Digital", "Tradicional",
     "Pixel Art", "Sin Boceto", "Caricatura",
@@ -48,11 +51,11 @@ const dataObject = new Set(object);
 let withoutRepeatObject = [...dataObject];
 
 
-console.log(`${livingBeing} ---> Pagina 5 --> Ser Vivo`);
+/*console.log(`${livingBeing} ---> Pagina 5 --> Ser Vivo`);
 console.log(`${companion} ---> Pagina 5 --> Acompañante`);
 console.log(`${object} ---> Pagina 5 --> Objeto`);
 console.log(`${StyleOptional} ---> Pagina 5 --> Estilo opcional`);
-console.log(`${subGenerOptional} ---> Pagina 5 --> Subgnero opcional`);
+console.log(`${subGenerOptional} ---> Pagina 5 --> Subgnero opcional`);*/
 
 
 function randomWord() {
